@@ -183,11 +183,11 @@ async function solveGlitch(compositeImageUrl, originalImageUrl) {
     }
 
     if (bestMatch.permutation) {
-      console.log(
+      /*console.log(
         `Best match found with permutation: ${bestMatch.permutation.join(
           ", "
         )} (similarity: ${bestMatch.similarity})`
-      );
+      );*/
 
       return bestMatch.permutation.join("");
     }
