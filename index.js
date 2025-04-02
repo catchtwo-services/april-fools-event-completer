@@ -33,7 +33,6 @@ async function start(token) {
             ""
           )
         : null;
-
       const englishName = await getName({
         name: pokemonName,
         language: "English",
@@ -69,7 +68,7 @@ async function createClients() {
   const tokenData = data.split(/\s+/);
   let tokens = [];
 
-  for (let i = 0; i < tokenData.length; i += 2) {
+  for (let i = 0; i < tokenData.length; i += 1) {
     if (tokenData) {
       const token = tokenData[i].trim();
 
