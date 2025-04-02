@@ -1,0 +1,17 @@
+## PokéTwo April Fools 2025 Event Completer
+
+Hiya! This is a standalone tool that automatically fixes the glitched pokemon you encounter.
+
+> [!IMPORTANT]
+> All credit to @kyan0045, if you want to leave a thanks, you can sponsor me on Github or star some repositories of mine you may like.
+
+### Setup
+
+As usual, you need [NodeJS](https://nodejs.org/en) v21 or newer installed, you can install the required packages through ``npm i`` or on online pterodactyl hosts by uploading the package.json to the container directory.
+
+All you need to do is enter the tokens you wish to run it on in [./tokens.txt](tokens.txt). 
+You can start it with ``node index.js``.
+
+### License 
+
+This repository is licensed under a [custom license](LICENSE)
