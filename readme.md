@@ -3,7 +3,7 @@
 Hiya! This is a standalone tool that automatically fixes the glitched pokemon you encounter.
 
 > [!IMPORTANT]
-> All credit to @kyan0045, if you want to leave a thanks, you can sponsor me on Github or star some repositories of mine you may like.
+> All credit to [@kyan0045](https://github.com/kyan0045), if you want to leave a thanks, you can sponsor me on Github or star some repositories of mine you may like.
 
 ### Setup
 
