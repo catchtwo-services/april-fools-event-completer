@@ -29,7 +29,7 @@ async function start(token) {
       const glitchUrl = embed.image.url;
       const pokemonName = message.reference?.messageId
         ? (await message.fetchReference()).content.replace(
-            /<@716390085896962058>\s*(?:c|catch)\s*/i,
+            /<@716390085896962058>\s+(?:c(?:atch)?)\s+/i,
             ""
           )
         : null;
